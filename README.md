@@ -58,6 +58,11 @@ The [harmonic mean][harmonic-mean] of positive real numbers `x_0, x_1, ..., x_{n
 ## Usage
 
 ```javascript
+import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nanhmean/tags). For example,
+
+```javascript
 import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@v0.1.0-deno/mod.js';
 ```
 
@@ -115,7 +120,7 @@ v = accumulator();
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@v0.1.0-deno/mod.js';
+import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@deno/mod.js';
 
 var accumulator;
 var v;
