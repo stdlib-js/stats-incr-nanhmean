@@ -58,7 +58,7 @@ The [harmonic mean][harmonic-mean] of positive real numbers `x_0, x_1, ..., x_{n
 ## Usage
 
 ```javascript
-import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@deno/mod.js';
+import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@v0.1.0-deno/mod.js';
 ```
 
 #### incrnanhmean()
@@ -115,7 +115,7 @@ v = accumulator();
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@deno/mod.js';
+import incrnanhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanhmean@v0.1.0-deno/mod.js';
 
 var accumulator;
 var v;
